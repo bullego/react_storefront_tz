@@ -36,7 +36,7 @@ const MediaCard = ({card_img,
       <CardActionArea>
         <CardMedia
           className={cls(classes.media, stl.card_img)}
-          image={card_img}
+          image={`react_storefront_tz/static/${card_img}`}
           title={card_title}
         />
 				<div className={stl.card_overlay}>
