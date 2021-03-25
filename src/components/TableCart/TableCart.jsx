@@ -46,7 +46,8 @@ const DenseTable = ({shoppingCartData,
 										<TableCell component="th" scope="row">
 											<div className={stl.cell_header}>
 												<div className={stl.cell_header_img_wrap}>
-													<img src={`/media/${item.image}`} alt={item.title}/>
+													<img src={`react_storefront_tz/static/media/${item.image}`}
+															 alt={item.title}/>
 												</div>
 
 												<div className={stl.cell_header_info}>
