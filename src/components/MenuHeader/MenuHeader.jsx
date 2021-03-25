@@ -32,7 +32,7 @@ const ButtonAppBar = () => {
 					<Link className={stl.menu_logo_link}
 								to='/'>
 						<img className={stl.menu_logo_img}
-								 src='react_storefront_tz/static/media/logo.png'
+								 src='/react_storefront_tz/media/logo.png'
 								 alt="storefront logo"/>
 					</Link>
           
