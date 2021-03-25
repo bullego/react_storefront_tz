@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Storefront Single-Page App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Assignment
 
-## Available Scripts
+Using React\*, create a single-page app which renders a mock storefront that matches the provided screenshots, using the
+supplied JSON and media files. The `products.json` file should be accessed asynchronously by
+making a GET request to `'/products.json'`
 
-In the project directory, you can run:
+- The storefront consists of three main screens: a category list page, a product details page, and a cart page (plus cart popup). More details are provided below.
+- Clicking the Add to Cart button on a product tile or on the product detail page should add the item to the cart
+  dynamically.
+- Attempting to add a duplicate item to the cart should instead increment the quantity for that item.
+- It should be possible to change quantities and remove items on the cart page.
+- Cart totals should update appropriately.
 
-### `yarn start`
+### Guidelines
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- There is no time limit for this assignment but we would advise time boxing the exercise to 6-7 hours.
+- Submit your assignment as a Git repository hosted on either GitHub or BitBucket.
+- Explain any compromises/shortcuts you made due to time considerations.
+- If you wish to use a framework other than React you are free to do so; we provide a React basis simply to expedite
+  the assignment process.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Assessment Criteria
 
-### `yarn test`
+We would like to see your skills as a developer. The criteria used to evaluate the assignment is as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### App (25%)
 
-### `yarn build`
+Your capacity to deliver software given a set of requirements. Should at least match requirements and be bug free. Feel free to make anything extra that you consider an improvement on the requirements, but is not required.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Code (20%)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your capacity for writing clean, maintainable, reusable and extensible code. Some of the things we will looking at are: software design, edge case handling, code complexity and code readability.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### JavaScript (20%)
 
-### `yarn eject`
+Your understanding of JavaScript, appropriate use of modern language features, framework mastery and appropriate use of JS libraries.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Unit Testing (20%)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- We don't ask for 100% code coverage, however we would like you to showcase your unit test skills. Choose different type of files and provide unit tests that showcase your unit testing capacity.
+- Also, we would like to see your capacity for providing comprehensive testing for at least one component/module. Choose one that you think is a good candidate for unit testing, and test it thoroughly.
+  Note: provide instructions on how to run them.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### UI (15%)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- UI that matches requirements, properly aligned, responds to resizing properly (don't need to provide mobile version).
+- UX: we would like to see some feedback when the user interacts with the website.
+- CSS: we want to assess your skills writing readable, simple and maintainable CSS.
 
-## Learn More
+### Sample Screens
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Category List page:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](./screens/category-page.png)
 
-### Code Splitting
+- Clicking the My Cart link should display the Cart Popup.
+- Hovering over one of the product tiles should display an overlay prompting the user to Add to Cart or View Details,
+  as below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](./screens/product-tile-overlay.png)
 
-### Analyzing the Bundle Size
+#### Cart Popup:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](./screens/cart-popup.png)
 
-### Making a Progressive Web App
+- You should be able to remove items from the cart using the popup.
+- The View Cart button should take you to the cart page.
+- The Checkout button does not need to do anything.
+- When the popup is displayed, clicking anywhere outside it on the page should dismiss the popup.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Product details page:
 
-### Advanced Configuration
+![](./screens/product-details.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Clicking the My Cart link should display the Cart Popup.
+- The quantity buttons should work as expected.
+- Clicking Add to Cart should work as expected.
 
-### Deployment
+#### Cart page:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![](./screens/cart.png)
 
-### `yarn build` fails to minify
+- Clicking the My Cart link should display the Cart Popup.
+- The quantity buttons should work as expected, including updating the total for each line item and the cart total.
+- The remove buttons should work as expected.
+- The Continue Shopping link should return to the homepage.
+- The Checkout button does not need to do anything.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Instructions
+
+This assignment requires [Node 6+](https://nodejs.org/en/) and was created using
+[create-react-app](https://github.com/facebook/create-react-app).
+
+Once installed, you should install the dependencies by running
+
+```
+npm install
+```
+
+To serve the application, run
+
+```
+npm start
+```
+
+To run the test suite, run
+
+```
+npm test
+```
