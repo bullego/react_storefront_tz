@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react_storefront_tz/static/css/main.b86c43ba.chunk.css",
+    "main.js": "/react_storefront_tz/static/js/main.f967f2cb.chunk.js",
+    "main.js.map": "/react_storefront_tz/static/js/main.f967f2cb.chunk.js.map",
+    "runtime-main.js": "/react_storefront_tz/static/js/runtime-main.4fa97417.js",
+    "runtime-main.js.map": "/react_storefront_tz/static/js/runtime-main.4fa97417.js.map",
+    "static/css/2.bee7fc54.chunk.css": "/react_storefront_tz/static/css/2.bee7fc54.chunk.css",
+    "static/js/2.4d05eb62.chunk.js": "/react_storefront_tz/static/js/2.4d05eb62.chunk.js",
+    "static/js/2.4d05eb62.chunk.js.map": "/react_storefront_tz/static/js/2.4d05eb62.chunk.js.map",
+    "index.html": "/react_storefront_tz/index.html",
+    "static/css/2.bee7fc54.chunk.css.map": "/react_storefront_tz/static/css/2.bee7fc54.chunk.css.map",
+    "static/css/main.b86c43ba.chunk.css.map": "/react_storefront_tz/static/css/main.b86c43ba.chunk.css.map",
+    "static/js/2.4d05eb62.chunk.js.LICENSE.txt": "/react_storefront_tz/static/js/2.4d05eb62.chunk.js.LICENSE.txt",
+    "static/media/notifications.css": "/react_storefront_tz/static/media/notification.c5d9251e.ttf",
+    "static/media/Category.module.css": "/react_storefront_tz/static/media/plates-header.5af5ba19.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fa97417.js",
+    "static/css/2.bee7fc54.chunk.css",
+    "static/js/2.4d05eb62.chunk.js",
+    "static/css/main.b86c43ba.chunk.css",
+    "static/js/main.f967f2cb.chunk.js"
+  ]
+}
