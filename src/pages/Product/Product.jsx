@@ -84,7 +84,7 @@ const Product = ({match, ...props}) => {
 					<Grid container>
 						<Grid item xs={12} sm={7}>
 							<div className={stl.card_img}>
-								<img src={`react_storefront_tz/static/media/${product.image}`} alt={product.title}/>
+								<img src={`/react_storefront_tz/static/media/${product.image}`} alt={product.title}/>
 							</div>
 						</Grid>
 						<Grid item xs={12} sm={5}>

@@ -78,7 +78,7 @@ const SimplePopover = () => {
 						? 
 							shoppingCartData.map(item => {
 								return (
-									<PopoverContent img={`/media/${item.image}`}
+									<PopoverContent img={`react_storefront_tz/static/media/${item.image}`}
 																	card_price={item.price}
 																	card_title={item.title}
 																	card_brand={item.brand}
