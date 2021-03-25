@@ -31,7 +31,9 @@ const ButtonAppBar = () => {
 				<Toolbar className={stl.menu_bar}>
 					<Link className={stl.menu_logo_link}
 								to='/'>
-						<img className={stl.menu_logo_img} src='/media/logo.png' alt="storefront logo"/>
+						<img className={stl.menu_logo_img}
+								 src='react_storefront_tz/static/media/logo.png'
+								 alt="storefront logo"/>
 					</Link>
           
           <Box component="div" className={stl.menu_btn_wrap}>

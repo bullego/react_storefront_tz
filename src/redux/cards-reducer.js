@@ -66,7 +66,7 @@ export const updShopingCartAC = (nextShoppingCart) => {
 
 //Thunk Creator
 export const fetchCardsTC = () => (dispatch) => {
-	fetch(`products.json`, {
+	fetch(`react_storefront_tz/static/products.json`, {
 		headers : { 
 			'Content-Type': 'application/json',
 			'Accept': 'application/json'
