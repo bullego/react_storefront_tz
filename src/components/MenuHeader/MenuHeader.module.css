@@ -1,0 +1,30 @@
+.menu_bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu_logo_link {
+	display: flex;
+}
+.menu_logo_img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+.menu_btn_wrap button {
+	margin: 0 0.5vw;
+	padding: 0.75vw 1.25vw;
+	font-weight: 600;
+	color: rgb(31, 31, 31);
+}
+.menu_btn_wrap button:nth-child(2n) {
+	padding-right: 0.5vw;
+}
+.menu_btn_wrap button:hover,
+.menu_btn_wrap button:focus,
+.menu_btn_wrap button:active {
+	outline: none;
+	background-color: transparent;
+	color: rgb(170, 142, 113);
+}

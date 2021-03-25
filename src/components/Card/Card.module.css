@@ -1,0 +1,50 @@
+.card {
+	position: relative;
+	width: 100% !important;
+	height: 100% !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.card_img {
+	background-size: cover !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}
+.card_overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 0;
+	opacity: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	transition: all 0.75s ease;
+}
+
+.card:hover .card_overlay {
+	height: 100%;
+	opacity: 1;
+}
+
+.card_overlay button {
+	width: 16vw;
+	margin: 1vw 0;
+	padding: 0.7vw 0;
+	border-radius: 0;
+	background-color: rgb(80, 80, 80);
+	color:rgb(255, 255, 255);
+	text-transform: uppercase;
+	letter-spacing: 20 !important;
+	text-align: center;
+	cursor: pointer;
+}
+
+.card_overlay button:hover,
+.card_overlay button:focus,
+.card_overlay button:active {
+	background-color: rgb(22, 22, 22);
+}

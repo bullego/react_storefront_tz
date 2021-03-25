@@ -1,0 +1,152 @@
+.product_container {
+	padding: 0 8vw;
+	margin-bottom: 7vw;
+}
+.breadcrumbs {
+	display: flex;
+	justify-content: center;
+	margin: 4vw 0;
+	margin-bottom: 5vw;
+}
+.breadcrumbs a,
+.breadcrumbs p {
+	font-size: 0.9rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.4);
+	letter-spacing: 0.05rem;
+}
+.breadcrumbs a {
+	color: rgb(29, 29, 29);
+}
+.card_img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.card_img img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-height: 440px;
+}
+.card_desc_wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 3vw;
+}
+.card_desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3vw;
+	text-align: center;
+}
+.card_desc h3 {
+	margin: 0;
+	margin-bottom: 1.6vw;
+	padding: 0;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.54);
+}
+.card_desc h1 {
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 1.6vw;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+.card_desc span {
+	margin: 0;
+	margin-bottom: 1vw;
+	padding: 0;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.54);
+}
+.card_desc p {
+	margin: 0;
+	padding: 0;
+	font-size: 0.85rem;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+	color: rgba(0, 0, 0, 0.54);
+}
+.card_add_wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding-top: 2vw;
+	border-top: 1px solid grey;
+}
+.card_add_wrap button {
+	width: 12vw;
+	height: 4.2vw;
+	font-size: 0.75rem;
+	background-color: rgb(22, 22, 22);
+	border: none;
+	border-radius: 0;
+	color:rgb(241, 241, 241);
+	cursor: pointer;
+}
+.card_add_wrap button:hover,
+.card_add_wrap button:focus,
+.card_add_wrap button:active {
+	outline: none;
+	background-color: rgb(70, 70, 70);
+	color:rgb(245, 245, 245);
+}
+.card_count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1vw;
+}
+.card_count input {
+	width: 4vw;
+	height: 4vw;
+	margin-right: 2px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1;
+	font-size: 1rem;
+	background-color: rgb(236, 236, 236);
+	border: none;
+	color: rgba(0, 0, 0, 0.54);
+}
+.count_btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.count_btn button {
+	width: 2vw;
+	height: 2vw;
+	background-color: rgb(207, 207, 207);
+	border: none;
+	line-height: 1;
+	text-align: center;
+	vertical-align: middle;
+	color: rgba(0, 0, 0, 0.54);
+}
+.count_btn button:first-child {
+	margin-bottom: 2px;
+}
+.add_cart_btn button {
+	line-height: 1;
+	color:rgb(245, 245, 245);
+	background-color: rgb(29, 29, 29);
+}
+

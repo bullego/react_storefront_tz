@@ -1,0 +1,51 @@
+.category_container {
+	color: red;
+}
+.main_content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./media/plates-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.main_title_wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+	padding: 6vw 3vw;
+	background-color: rgb(44, 44, 44);
+	text-align: center;
+	color: rgb(240, 240, 240);
+	border-left: 8px solid #fff; 
+	border-right: 8px solid #fff; 
+}
+.main_title_wrap h1 {
+	position: relative;
+	font-size: 3rem;
+}
+.main_title_wrap h1:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: rgb(240, 240, 240);
+}
+.main_title_wrap p {
+	font-size: 0.78rem;
+}
+.card_wrap {
+	padding: 4vw 0;
+}
+.card_item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: none !important;
+}
